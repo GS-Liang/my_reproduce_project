@@ -1,0 +1,14 @@
+---
+title: "可复现研究作业"
+author: "我的小组"
+format: html
+---
+
+# 1. 数据来源
+Kaggle 空气质量数据集
+
+# 2. 读取数据
+```{r}
+library(tidyverse)
+d <- read_csv("data/city_day.csv")
+head(d)
